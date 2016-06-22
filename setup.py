@@ -2,10 +2,9 @@ import sys
 import os
 from distutils.core import setup
 
-from createsend.createsend import __version__
 
 setup(name = "createsend",
-      version = __version__,
+      version = '4.1.1',  # duplicated in createsend/createsend.py
       description = "A library which implements the complete functionality of the Campaign Monitor API.",
       author = "James Dennes",
       author_email = 'jdennes@gmail.com',
